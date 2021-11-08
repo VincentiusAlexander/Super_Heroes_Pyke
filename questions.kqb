@@ -1,24 +1,22 @@
-is_man($ans)
-  apakah karakter anda Laki-laki?
-  ---
-  $ans= yn
+# questions.kqb
 
-is_using_weapon($ans)
-  apakah karakter anda Menggunakan senjata?
-  ---
-  $ans= yn
+any_disasters($ans)
+	Are any of the following disasters currently occurring?
+	---
+	$ans = select_1
+		1: Forest Fire
+		2: Tornado
+		3: Hurricane
+		4: Pandemic
+		5: None of the above
+			! Thank goodness
 
-is_using_cape($ans)
-  apakah karakter anda Menggunakan jubah?
-  ---
-  $ans= yn
-
-is_red($ans)
-  apakah karakter anda memiliki Perawakan merah?
-  ---
-  $ans= yn
-
-is_rich($ans)
-  apakah karakter anda Kaya?
-  ---
-  $ans= yn
+is_raining($ans)
+	Is it raining?
+	---
+	$ans = yn
+	
+is_windy($ans)
+	Is it windy?
+	---
+	$ans = yn
