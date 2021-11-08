@@ -1,0 +1,24 @@
+is_man($ans)
+  apakah karakter anda Laki-laki?
+  ---
+  $ans= yn
+
+is_using_weapon($ans)
+  apakah karakter anda Menggunakan senjata?
+  ---
+  $ans= yn
+
+is_using_cape($ans)
+  apakah karakter anda Menggunakan jubah?
+  ---
+  $ans= yn
+
+is_red($ans)
+  apakah karakter anda memiliki Perawakan merah?
+  ---
+  $ans= yn
+
+is_rich($ans)
+  apakah karakter anda Kaya?
+  ---
+  $ans= yn
