@@ -4,6 +4,8 @@ import sys
 from pyke import knowledge_engine
 from pyke import krb_traceback
 
+engine = knowledge_engine.engine(__file__)
+
 def test_questions():
 
     engine.reset()      # Allows us to run tests multiple times.
