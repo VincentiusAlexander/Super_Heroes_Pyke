@@ -1,59 +1,59 @@
 it_is_black_widow
   use super_hero(black_widow)
   when
-    questions2.is_man(False)
-    questions2.is_using_weapon(True)
+    questions.is_man(False)
+    questions.is_using_weapon(True)
 
 it_is_scarlet_witch
   use super_hero(scarlet_witch)
   when
-    questions2.is_man(False)
-    questions2.is_using_weapon(False)
-    questions2.is_using_cape(True)
+    questions.is_man(False)
+    questions.is_using_weapon(False)
+    questions.is_using_cape(True)
 
 it_is_captain_marvel
   use super_hero(captain_marvel)
   when
-    questions2.is_man(False)
-    questions2.is_using_weapon(False)
-    questions2.is_using_cape(False)
+    questions.is_man(False)
+    questions.is_using_weapon(False)
+    questions.is_using_cape(False)
 
 it_is_hulk
   use super_hero(hulk)
   when
-    questions2.is_man(True)
-    questions2.is_using_weapon(False)
+    questions.is_man(True)
+    questions.is_using_weapon(False)
 
 it_is_iron_man
   use super_hero(iron_man)
   when
-    questions2.is_man(True)
-    questions2.is_using_weapon(True)
-    questions2.is_using_cape(False)
-    questions2.is_red(True)
-    questions2.is_rich(True)
+    questions.is_man(True)
+    questions.is_using_weapon(True)
+    questions.is_using_cape(False)
+    questions.is_red(True)
+    questions.is_rich(True)
 
 it_is_thor
   use super_hero(thor)
   when
-    questions2.is_man(True)
-    questions2.is_using_weapon(True)
-    questions2.is_using_cape(True)
+    questions.is_man(True)
+    questions.is_using_weapon(True)
+    questions.is_using_cape(True)
 
 it_is_black_panther
   use super_hero(black_panther)
   when
-    questions2.is_man(True)
-    questions2.is_using_weapon(True)
-    questions2.is_using_cape(False)
-    questions2.is_red(False)
-    questions2.is_rich(True)
+    questions.is_man(True)
+    questions.is_using_weapon(True)
+    questions.is_using_cape(False)
+    questions.is_red(False)
+    questions.is_rich(True)
 
 it_is_ant_man
   use super_hero(ant_man)
   when
-    questions2.is_man(True)
-    questions2.is_using_weapon(True)
-    questions2.is_using_cape(False)
-    questions2.is_red(True)
-    questions2.is_rich(False)
+    questions.is_man(True)
+    questions.is_using_weapon(True)
+    questions.is_using_cape(False)
+    questions.is_red(True)
+    questions.is_rich(False)
