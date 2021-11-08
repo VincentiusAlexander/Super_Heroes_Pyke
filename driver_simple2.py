@@ -15,7 +15,7 @@ def test_questions():
     print("doing proof")
     
     try:
-        with engine.prove_goal('sp_questions.it_is($answer)') as gen: #STUDENTS: you will need to edit this line
+        with engine.prove_goal('sp_questions.super_hero($answer)') as gen: #STUDENTS: you will need to edit this line
             for vars, plan in gen:
                 print("It is: %s" % (vars['answer'])) #STUDENTS: you will need to edit this line
 
